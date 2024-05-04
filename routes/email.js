@@ -28,7 +28,7 @@ async function sendMail({First,Last,Phone,Email,Topic,Message}) {
 
     const mailOptions = {
         from: 'shubhang999454@gmail.com',
-        to:'nautiyalshubhang@gmail.com',
+        to:'mahimyfoods.igt@gmail.com',
         subject: `Contact details of ${First} ${Last}`,
         text:`First Name : ${First} ,  Last Name : ${Last} , Phone : ${Phone} , Email : ${Email} , Topic : ${Topic}  , Messages: ${Message}`, // Use the provided email content here
     };
